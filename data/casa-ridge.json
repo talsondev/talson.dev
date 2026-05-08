@@ -1,0 +1,29 @@
+{
+  "projectType": "website",
+  "slug": "casa-ridge",
+  "title": "Casa Ridge",
+  "company": "Neu Digital",
+  "status": "Live",
+  "liveUrl": "https://casaridge.com/",
+  "problem": "A company approached Neu Digital about getting ",
+  "stack": [
+    "HTML",
+    "CSS",
+    "JS",
+    "SCSS",
+    "Eleventy",
+    "Codestitch Templates"
+  ],
+  "keyFeatures": [
+    "Static",
+    "Multi-page Website"
+  ],
+  "deployment": "Netlify",
+  "logoImage": "/assets/casa-ridge/logo.png",
+  "heroBackgroundImage": "/assets/casa-ridge/website.jpeg",
+  "colorPrimary": "#1A1A1A",
+  "colorSecondary": "#000000",
+  "colorAccent": "#EAE3D9",
+  "category": "Architecture",
+  "completionDate": "December 2024"
+}

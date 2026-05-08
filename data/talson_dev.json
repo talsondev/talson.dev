@@ -1,0 +1,33 @@
+{
+  "projectType": "website",
+  "slug": "talson_dev",
+  "title": "Talson.dev Portfolio Site",
+  "company": "talson.dev",
+  "status": "Live",
+  "liveUrl": "https://talson.dev",
+  "tagline": "A Fresh Start",
+  "problem": "After graduating from SAIT, I spent a few months trying to get a custom portfolio site off the ground. I was hosting a block built portfolio off of framer, but decided I need to try building something that shows off some of my skills.",
+  "solution": "After watching a video from theprimeagen, I realized that it might be fun to build an ultra optimized website. I started planning what would be my attempt at the 14KB site. Which you are looking at right now. Technically it is not a true 14KB site but it has been designed to stay under the 14KB first packet limit that the TCP slow start algorithm loves.",
+  "stack": [
+    "HTML",
+    "CSS",
+    "JS",
+    "Motion.dev",
+    "React"
+  ],
+  "keyFeatures": [
+    "14KB Challenge",
+    "Motion.dev Animations",
+    "Modern HTML Elements (Dialog Modals)"
+  ],
+  "deployment": "Netlify",
+  "logoImage": "/assets/t.svg",
+  "heroBackgroundImage": "/assets/talson_dev/website.jpeg",
+  "colorPrimary": "#fffcf5",
+  "colorSecondary": "#bcad86",
+  "colorAccent": "#95d49b",
+  "typography": "placeholder",
+  "category": "Portfolio",
+  "completionDate": "April 2026",
+  "githubLink": "placeholder"
+}

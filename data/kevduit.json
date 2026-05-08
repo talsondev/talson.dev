@@ -1,0 +1,31 @@
+{
+  "projectType": "website",
+  "slug": "kevduit",
+  "title": "Kevduit.com",
+  "company": "DUIT Media Inc.",
+  "status": "In-Dev",
+  "liveUrl": "https://kevduit.com/",
+  "tagline": "A \"Small\" Update",
+  "problem": "Content Creator Kevin \"Kevduit\" wanted to update his site to have a better \"Where is Minerva?\" page. Part of this change was moving from Wordpress to have more control over advertising and content as well as website look.",
+  "solution": "I have been working on his solution for a few months now with a fully automated \"Where is Minerva?\" page using some special methods in order to maximize efficiency. I used astro static site building feature to have dynamic frontmatter variables that would define new weeks and items on a website rebuild. Using cron and netlify scheduled functions allowed me to consistently schedule regular updates so the website accurately shows Minerva's current inventory. I am still working on solving the blog hosting solution we are attempting to rollout.",
+  "stack": [
+    "Astro",
+    "HTML",
+    "CSS",
+    "TailwindCSS",
+    "Sanity"
+  ],
+  "keyFeatures": [
+    "Dynamic Content",
+    "Astro content-collections CMS"
+  ],
+  "deployment": "Netlify",
+  "logoImage": "/assets/kevduit/logo.png",
+  "heroBackgroundImage": "/assets/kevduit/website.jpeg",
+  "heroBackgroundVideo": "/assets/kevduit/hero.mp4",
+  "colorAccent": "#ff6f1c",
+  "colorSecondary": "#1e1e1e",
+  "colorPrimary": "#767676",
+  "category": "Gaming",
+  "completionDate": "May 2026"
+}
