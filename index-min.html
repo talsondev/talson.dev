@@ -190,14 +190,13 @@
                 margin: auto;
                 display: grid;
                 grid-template-columns: 250px 2rem 1fr 1fr;
-                grid-template-rows: 1fr 1fr 1fr 2rem 100vh;
+                grid-template-rows: repeat(3, auto) 2rem auto;
                 gap: 1rem;
                 grid-template-areas:
                     "card-0 . card-1 card-1"
                     "card-0 . card-1 card-1"
                     "card-0 . card-3 card-3"
-                    "card-0 . . ."
-                    "card-2 card-2 card-2 card-2"
+                    ". . . ."
                     "card-2 card-2 card-2 card-2";
             }
 
@@ -205,9 +204,9 @@
                 background-color: var(--secondary);
                 color: var(--background);
                 padding: 1rem;
-                border-radius: 1rem;
+                border-radius: .2rem;
             }
-            
+
             div#backdrop-box {
                 background-color: var(--primary);
                 opacity: 0;
