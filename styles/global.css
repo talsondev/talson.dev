@@ -862,7 +862,7 @@ dialog.peek-panel {
       rgba(255, 255, 255, 0) 1px,
       rgba(255, 255, 255, 0) 4px
     ),
-    url(./assets/min/noise.svg);
+    url(../assets/min/noise.svg);
   background-size: auto, auto, 180px;
   overflow: hidden;
 }
