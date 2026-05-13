@@ -21,6 +21,7 @@
   "deployment": "Netlify",
   "logoImage": "/assets/casa-ridge/logo.png",
   "heroBackgroundImage": "/assets/casa-ridge/website.jpeg",
+  "heroBackgroundVideo": "/assets/casa-ridge/website.mp4",
   "colorPrimary": "#1A1A1A",
   "colorSecondary": "#000000",
   "colorAccent": "#EAE3D9",
