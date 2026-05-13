@@ -1,0 +1,29 @@
+{
+  "projectType": "website",
+  "slug": "lygasco",
+  "title": "Lygas Co",
+  "company": "Neu Digital",
+  "status": "Live",
+  "liveUrl": "https://lygasco.com/",
+  "tagline": "My First Professional Project",
+  "stack": [
+    "HTML",
+    "CSS",
+    "SCSS",
+    "JS",
+    "Eleventy",
+    "Codestitch templates"
+  ],
+  "keyFeatures": [
+    "Static",
+    "Multi-page Website"
+  ],
+  "deployment": "Netlify",
+  "logoImage": "/assets/lygasco/logo.avif",
+  "heroBackgroundImage": "/assets/lygasco/hero.webp",
+  "colorPrimary": "#973131",
+  "colorSecondary": "#131925",
+  "colorAccent": "#e0a75e",
+  "category": "Print",
+  "completionDate": "Nov 2024"
+}
