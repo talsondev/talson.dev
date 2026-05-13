@@ -79,16 +79,30 @@
                 flex-flow: column;
                 place-items: center;
                 margin: 0;
-                gap: 30vh;
+                gap: 8vh;
+            }
+
+            @media (min-width: 768px) {
+                body {
+                    gap: 30vh;
+                }
             }
 
             header {
-                width: 80%;
+                width: 92%;
                 display: flex;
                 flex-flow: column;
                 justify-content: flex-start;
-                font-size: 2rem;
-                padding: 1rem;
+                font-size: 1rem;
+                padding: 1rem 0;
+            }
+
+            @media (min-width: 768px) {
+                header {
+                    width: 80%;
+                    font-size: 2rem;
+                    padding: 1rem;
+                }
             }
 
             nav {
@@ -98,17 +112,34 @@
             }
 
             main {
-                width: 90%;
+                width: 92%;
                 max-width: 1920px;
-                margin: 3rem 0;
-                gap: 30vh;
+                margin: 1rem 0;
+                gap: 8vh;
                 display: flex;
                 flex-flow: column;
+            }
+
+            @media (min-width: 768px) {
+                main {
+                    width: 90%;
+                    margin: 3rem 0;
+                    gap: 30vh;
+                }
             }
 
             h1 {
                 font-weight: 600;
                 text-align: center;
+                font-size: 1.5rem;
+                line-height: 1.2;
+            }
+
+            @media (min-width: 768px) {
+                h1 {
+                    font-size: 3.5rem;
+                    line-height: 1.1;
+                }
             }
 
             h2,
@@ -128,9 +159,18 @@
             ul {
                 list-style: none;
                 display: flex;
-                justify-content: space-evenly;
+                flex-wrap: wrap;
+                justify-content: flex-start;
                 align-items: center;
-                gap: 1rem;
+                gap: 0.75rem;
+            }
+
+            @media (min-width: 768px) {
+                ul {
+                    flex-wrap: nowrap;
+                    justify-content: space-evenly;
+                    gap: 1rem;
+                }
             }
 
             svg.icon {
@@ -142,14 +182,25 @@
             button {
                 text-decoration: none;
                 color: var(--text);
-                padding: 10px 10px;
+                padding: 10px 12px;
                 margin: 0;
                 background-color: var(--background);
                 border: none;
                 border-radius: 4px;
-                display:flex;
+                display: flex;
                 flex-flow: row;
                 justify-content: space-between;
+                font-size: 0.95rem;
+                gap: 0.5rem;
+            }
+
+            @media (min-width: 768px) {
+                a,
+                button {
+                    padding: 10px 10px;
+                    font-size: 1rem;
+                    gap: 0;
+                }
             }
 
             a:hover,
@@ -167,15 +218,34 @@
 
             #top {
                 display: flex;
-                flex-direction: row;
-                justify-content: space-between;
+                flex-direction: column;
+                justify-content: flex-start;
+                gap: 1rem;
+                width: 100%;
+            }
+
+            @media (min-width: 768px) {
+                #top {
+                    flex-direction: row;
+                    justify-content: space-between;
+                    gap: 0;
+                    width: auto;
+                }
             }
 
             .hero {
                 display: block;
-                font-size: 2rem;
+                font-size: 1rem;
                 width: 100%;
                 padding: 0 5%;
+                line-height: 1.6;
+            }
+
+            @media (min-width: 768px) {
+                .hero {
+                    font-size: 2rem;
+                    line-height: 1.5;
+                }
             }
 
             .accent {
@@ -187,18 +257,32 @@
             }
 
             .layout-container {
-                width: 80%;
+                width: 92%;
                 margin: auto;
                 display: grid;
-                grid-template-columns: 250px 2rem 1fr 1fr;
-                grid-template-rows: repeat(3, auto) 2rem auto;
-                gap: 1rem;
+                grid-template-columns: 1fr;
+                grid-template-rows: auto;
+                gap: 1.5rem;
                 grid-template-areas:
-                    "card-0 . card-1 card-1"
-                    "card-0 . card-1 card-1"
-                    "card-0 . card-3 card-3"
-                    ". . . ."
-                    "card-2 card-2 card-2 card-2";
+                    "card-0"
+                    "card-1"
+                    "card-3"
+                    "card-2";
+            }
+
+            @media (min-width: 768px) {
+                .layout-container {
+                    width: 80%;
+                    grid-template-columns: 250px 2rem 1fr 1fr;
+                    grid-template-rows: repeat(3, auto) 2rem auto;
+                    gap: 1rem;
+                    grid-template-areas:
+                        "card-0 . card-1 card-1"
+                        "card-0 . card-1 card-1"
+                        "card-0 . card-3 card-3"
+                        ". . . ."
+                        "card-2 card-2 card-2 card-2";
+                }
             }
 
             .card {
@@ -206,6 +290,11 @@
                 color: var(--background);
                 padding: 1rem;
                 border-radius: .2rem;
+                min-width: 0;
+            }
+
+            .layout-container > * {
+                min-width: 0;
             }
 
             div#backdrop-box {
