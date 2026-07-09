@@ -5,14 +5,14 @@
   "company": "Neu Digital",
   "status": "Live",
   "liveUrl": "https://casaridge.com/",
-  "problem": "A company approached Neu Digital about getting ",
+  "problem": "I worked with Neu Digital, designing the website in Figma and then building the website from the design guide.",
   "stack": [
     "HTML",
     "CSS",
     "JS",
     "SCSS",
     "Eleventy",
-    "Codestitch Templates"
+    "Codestitch"
   ],
   "keyFeatures": [
     "Static",

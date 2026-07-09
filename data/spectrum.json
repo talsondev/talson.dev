@@ -1,0 +1,41 @@
+{
+  "projectType": "website",
+  "slug": "spectrum",
+  "title": "Spectrum Home Plans",
+  "company": "Spectrum Design and Drafting Studios Ltd.",
+  "status": "In-Dev",
+  "liveUrl": "www.spectrumhomeplans.com",
+  "problem": "Spectrum had an old website built on old technology with a non-functioning stripe integration. The owner, Lance Plewis, wanted to revamp the site with the goal of getting a bigger online presence and expanding it's online revenue.",
+  "solution": "The original site appeared to be a wordpress site (possible Laravel), hosted from hostgator. I was originally given complete technical and creative freedom to build the site from the ground up.\nI as a junior developer wanting to push myself a bit out of my comfort zone, chose to build something that would be performant and lightweight, allowing the company to target a small user base and scale up slowly.\nThe stack chosen for this purpose was Astro with SSR on the Frontend, Fastify on the Backend, and Prisma for the Database. Most actual programmatic systems were written using Typescript. In order to speed up development without needing to touch any agentic coding, I chose to use Shadcn UI components and React to build dynamic components, and Motion.dev for simple reusable animations. For the Backend I chose to use Clerk to simplify authentication, authorization and minimize exploits/maintenance, and Stripe was chosen because it is a well known payment provider Lance already had an account for. Prisma was chosen to build using what I was familiar with normalizing data on relational databases, and the ability to use types, further increasing the security of the backend. Uploadthing may be swapped out in the future as it is what is currently being used for plan image storage, but I am considering blob storage as it will likely scale significantly better and be more cost effective. The project is currently in active development and about to enter public pre-release meaning some features are currently unavailable.",
+  "stack": [
+    "Astro",
+    "React",
+    "Typescript",
+    "Fastify",
+    "Prisma",
+    "PostgreSQL",
+    "Motion.dev",
+    "Shadcn UI",
+    "uploadthing",
+    "Clerk",
+    "Stripe"
+  ],
+  "keyFeatures": [
+    "Dynamic Web App",
+    "E-commerce Integration",
+    "User Dashboard",
+    "Admin Dashboard",
+    "Relational Database",
+    "Image optimization and storage."
+  ],
+  "deployment": "Render.com",
+  "logoImage": "/assets/spectrum/logo.svg",
+  "heroBackgroundImage": "/assets/spectrum/hero.webp",
+  "heroBackgroundVideo": "/assets/spectrum/hero.mp4",
+  "colorPrimary": "#291911",
+  "colorSecondary": "#68381a",
+  "colorAccent": "#FF6D4C",
+  "category": "Architecture",
+  "completionDate": "Ongoing",
+  "githubLink": "https://github.com/talsondev/nd-spectrumhomeplans"
+}

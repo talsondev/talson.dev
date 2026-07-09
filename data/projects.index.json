@@ -1,8 +1,10 @@
 {
   "projects": [
-    "talson_dev.json",
+    "spectrum.json",
     "kevduit.json",
+    "talson_dev.json",
     "sem4-cprg-security.json",
+    "eia-armario.json",
     "casa-ridge.json",
     "lygasco.json"
   ]

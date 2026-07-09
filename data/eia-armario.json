@@ -1,0 +1,32 @@
+{
+  "projectType": "ux",
+  "slug": "eia-armario",
+  "title": "European Innovation Academy - Armario",
+  "role": "CTO",
+  "duration": "15 Days",
+  "challenge": "European Innovation Academy is a study abroad entrepreneurship program. Over the course of three weeks you join a team and go through the process of creating a startup. I joined a team wanting to tackle the problem of company sustainability and ethics transparency for consumers.",
+  "methods": [
+    "Iterative Design",
+    " User Research",
+    " Market Analysis",
+    " Competition Analysis"
+  ],
+  "persona": "Environmentally conscious Gen Z individual",
+  "keyInsight": "Early on we had some intercultural issues that affected our team dynamic. We quickly",
+  "wireframes": "https://www.figma.com/design/BZ3q2rqyc47kguup6r3Eiv/Prototype--Armario-?node-id=0-1&t=I8ie107IU2g2ZZ09-1",
+  "prototypes": "https://www.figma.com/proto/BZ3q2rqyc47kguup6r3Eiv/Prototype--Armario-?node-id=0-1&t=I8ie107IU2g2ZZ09-1",
+  "accessibility": "WCAG",
+  "usabilityResults": "We found that individuals wanted ",
+  "designChanges": "Design Changes",
+  "styleGuide": "StyleGuideurls",
+  "beforeAfter": [
+    "Before&After urls(comma seperated)"
+  ],
+  "metric": "Waitlist Signups, User Research",
+  "heroBackgroundImage": "/assets/eia-armario/logo.webp",
+  "heroBackgroundVideo": "/assets/eia-armario/prototype.mp4",
+  "logoImage": "/assets/eia-armario/eia-logo.svg",
+  "colorPrimary": "#ffffff",
+  "colorSecondary": "#6A0B06",
+  "colorAccent": "#60cd18"
+}

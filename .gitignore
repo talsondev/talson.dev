@@ -1,1 +1,5 @@
 index-source.html
+package.json
+package-lock.json
+node_modules
+.vscode

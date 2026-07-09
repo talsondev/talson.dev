@@ -5,14 +5,14 @@
   "company": "Neu Digital",
   "status": "Live",
   "liveUrl": "https://lygasco.com/",
-  "tagline": "My First Professional Project",
+  "problem": "My first project working with Neu Digital. I got to pick out components and work on the website design and then build it out using codestitch html templates",
   "stack": [
     "HTML",
     "CSS",
     "SCSS",
     "JS",
     "Eleventy",
-    "Codestitch templates"
+    "Codestitch"
   ],
   "keyFeatures": [
     "Static",
